@@ -6,6 +6,7 @@ import photo_4 from './firebase.png';
 import photo_5 from './Layout.png';
 import photo_6 from './session.png';
 import photo_7 from './map3D.png';
+import photo_8 from './japan.png';
 
 
 export const projectData = [
@@ -50,7 +51,7 @@ export const projectData = [
         name: 'Firebase server',
         surname: 'Firebase',
         description: 'Was created a server for send data from Firebase to whatever site and also for store logins and passwords users.',
-        image:  photo_4, 
+        image: photo_4,
         url: 'https://github.com/dimagong/firebase-server',
         id: 4
     },
@@ -77,6 +78,14 @@ export const projectData = [
         image: photo_7,
         url: 'https://codepen.io/dimagong/pen/zYGLObZ',
         id: 7
+    },
+    {
+        name: 'Tour agency',
+        surname: 'JS, HTML, CSS',
+        description: "Was created landing page about tour to Japan",
+        image: photo_8,
+        url: 'https://dimagong.github.io/japanLayout/',
+        id: 8
     }
 ];
 
